@@ -1,0 +1,60 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --gray-color:rgb(107, 107, 107);
+    --primary-color:rgb(24,144,255);
+    --border-color:rgba(180, 180, 180, 0.2);;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+.atn-button{
+    padding: 12px 18px;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.212);
+    display:inline-flex;
+    border-radius: 2px;
+    color: var(--gray-color);
+    cursor: pointer;
+    transition: all linear .2s;
+   
+}
+.btn-primary.atn-button:hover{
+    opacity: .7;
+    cursor: pointer;
+    color: var(--white-color);
+}
+.atn-button:hover{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.atn-button i{
+    padding-right: 8px;
+}
+
+.white-color{
+    color: #fff !important;
+}
+
+.p-l-r-15{
+    padding: 0 15px;
+}
+
