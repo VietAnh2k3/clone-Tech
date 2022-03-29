@@ -29,4 +29,7 @@
     .hide-on-mobile-tablet{
         display: none;
     }
+    .slider__content-heading{
+        line-height: 1.2;
+    }
 }
